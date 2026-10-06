@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 20px;
+}
+
+.boxes {
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid;
+}
+
+.content-box {
+    box-sizing: content-box;
+    border-color: hotpink;
+}
+
+.border-box {
+    box-sizing: border-box;
+    border-color: purple;
+}
